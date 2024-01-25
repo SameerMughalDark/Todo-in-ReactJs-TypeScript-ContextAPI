@@ -1,0 +1,136 @@
+body {
+    background-color: rgb(37, 37, 37);
+}
+
+
+
+
+.addTodoForm {
+    width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    border: 2px solid wheat;
+    background-color: black;
+    color: wheat;
+
+
+}
+
+.addTodoForm input {
+    height: 30px;
+    width: 200px;
+    outline: none;
+    border: 0;
+    color: wheat;
+    background-color: black;
+    border-bottom: 2px double wheat;
+}
+
+
+button {
+    height: 30px;
+    width: 100px;
+    background-color: wheat;
+    color: black;
+    cursor: pointer;
+    margin-left: 20px;
+    border: none;
+
+}
+
+
+.todosDiv {
+    width: 80%;
+    margin: 2% auto;
+    background-color: rgb(8, 8, 8);
+    color: wheat;
+    border: 5px double rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todosListInMAP {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+}
+
+.todosListInMAP input,
+label {
+    width: 10%;
+    cursor: pointer;
+    font-size: 22px;
+}
+.todosListInMAP label{
+    width: 60%;
+    cursor: pointer;
+    font-size: 22px;
+}
+.todosListInMAP button{
+    width: 30%;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.navbar {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar a {
+    color: wheat;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    border-bottom: 2px solid wheat;
+    transition: all 0.2s ease-in-out;
+}
+
+input[type='checkbox'] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #f8f5f0;
+    /* Border color */
+    border-radius: 4px;
+    /* Border radius */
+    outline: none;
+    cursor: pointer;
+}
+
+/* Custom styles for the checkbox when checked */
+input[type="checkbox"]:checked {
+    background-color: wheat;
+    /* Background color when checked */
+    border-color: whitesmoke;
+    /* Border color when checked */
+}
+
+.todoItemsDivs{
+   width: 400px;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+}
