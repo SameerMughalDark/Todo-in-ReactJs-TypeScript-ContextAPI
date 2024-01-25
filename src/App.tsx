@@ -1,4 +1,3 @@
-import './App.css'
 import AddToDo from './Components/AddToDo'
 import Navbar from './Components/Navbar'
 import TodosList from './Components/TodosList'
